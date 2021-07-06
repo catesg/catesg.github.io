@@ -19,3 +19,7 @@
 .sg-btn-primary:hover {
     background: #555F79;
 }
+
+.sg-typed-color--primary {
+    color: #2A3757 !important;
+}

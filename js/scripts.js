@@ -2730,6 +2730,7 @@ mr = (function (mr, $, window, document){
                 themeDefaults = {
                     strings: [],
                     typeSpeed: 100,
+                    backDelay: 3000,
                     loop: true,
                     showCursor: false
                 }, ao = {};
