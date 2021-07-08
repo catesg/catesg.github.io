@@ -23,3 +23,11 @@
 .sg-typed-color--primary {
     color: #2A3757 !important;
 }
+
+.sg-link {
+    color: #2A3757;
+}
+
+.sg-link:hover {
+    color: #555F79;
+}
