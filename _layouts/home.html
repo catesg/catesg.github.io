@@ -45,6 +45,13 @@
                                         <li><a class="inner-link" href="#contact">contact</a></li>
                                     </ul>
                                 </div>
+                                <div class="bar__module">
+                                    <a class="btn btn--sm btn--primary sg-btn-primary type--uppercase" href="#cta-modal" data-modal-index="0">
+                                        <span class="btn__text">
+                                            Blah Blah
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,6 +109,28 @@
                     </div>
                 </div>
             </section>
+
+            <section class="text-center bg--dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                            <div class="cta">
+                                <h2>Title Here!</h2>
+                                <p class="lead">
+                                    CTA lead paragraph here!
+                                </p>
+                                <a class="btn btn--primary sg-btn-primary type--uppercase" href="#cta-modal" data-modal-index="0">
+                                    <span class="btn__text">
+                                        Blah Blah
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             <section id="services">
                 <div class="container">
                     <div class="row">
@@ -350,7 +379,7 @@
             </footer>
         </div>
 
-        <section class="page-navigator">
+        <!-- <section class="page-navigator">
           <ul>
               <li><a href="#" class="inner-link" data-title="Top"></a></li>
               <li><a href="#why-positive-communication" class="inner-link" data-title="Why Positive Communication?"></a></li>
@@ -358,7 +387,38 @@
               <li><a href="#about-cate" class="inner-link" data-title="About Cate"></a></li>
               <li><a href="#contact" class="inner-link" data-title="Contact"></a></li>
           </ul>
-      </section>
+      </section> -->
+
+      <div class="modal-container hide" data-modal-index="0" data-modal-id="cta-modal">
+        <div class="modal-content section-modal">
+            <section class="unpad ">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 col-12">
+                            <div class="feature feature-1">
+                                <div class="feature__body boxed boxed--lg boxed--border text-center">
+                                    <div class="modal-close modal-close-cross"></div>
+                                    <div class="text-block">
+                                        <h3>Title Here</h3>
+                                        <p>Intro text here</p>
+                                    </div>
+                                    <form action="https://submit-form.com/rBj8gZf9" class="text-left form-email row mx-0" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly." data-modal-id="cta-modal" data-modal-index="0">
+                                        <div class="col-md-12"><label>Your Name:</label> <input type="text" name="name" class="validate-required" /></div>
+                                        <div class="col-md-12"><label>Email Address:</label> <input type="email" name="email" class="validate-required validate-email" /></div>
+                                        <div class="col-md-12"><label>Message:</label> <textarea rows="6" name="Message" class="validate-required"></textarea></div>
+                                        <div class="col-md-5 col-lg-4"><button type="submit" class="btn btn--primary type--uppercase sg-btn-primary">Send Enquiry</button></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!--end feature-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+        </div>
+    </div>
 
         <script src="js/jquery-3.1.1.min.js"></script>
         <script src="js/parallax.js"></script>

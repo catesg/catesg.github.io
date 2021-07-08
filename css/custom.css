@@ -11,7 +11,8 @@
     background: #ccdee0;
 }
 
-.sg-btn-primary {
+.sg-btn-primary,
+.sg-btn-primary:visited {
     background: #2A3757;
     border-color: #2A3757;
 }
@@ -30,4 +31,8 @@
 
 .sg-link:hover {
     color: #555F79;
+}
+
+.hide {
+    display: none;
 }

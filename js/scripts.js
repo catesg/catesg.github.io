@@ -1044,6 +1044,7 @@ mr = (function (mr, $, window, document){
                 } ).done( function(){
                     //
                 } ).always( function(){
+                    mr.modals.closeActiveModal();
                     mr.forms.resetForm(thisForm);
                     mr.forms.showFormSuccess(formSuccess, formError, 1000, 5000, 500);
                     mr.forms.captcha.resetWidgets();
@@ -1842,7 +1843,8 @@ mr = (function (mr, $, window, document){
 
         jQuery(document).on('click','a[href^="#"]', function(){
             var modalID = $(this).attr('href').replace('#', '');
-            if($('[data-modal-id="'+modalID+'"]').length){    
+            if($('[data-modal-id="'+modalID+'"]').length){
+                $('[data-modal-id="'+modalID+'"]').removeClass( 'hide' );
                 mr.modals.closeActiveModal();
                 setTimeout(mr.modals.showModal, 500,'[data-modal-id="'+modalID+'"]', 0);
             }
