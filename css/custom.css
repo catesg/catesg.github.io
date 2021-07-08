@@ -1,0 +1,38 @@
+/*! Place your custom styles here */
+.bar .sg-logo {
+    max-height: 40px;
+}
+
+.bg--secondary {
+    background: #f5f0eb;
+}
+
+.sg-contact-bg {
+    background: #ccdee0;
+}
+
+.sg-btn-primary,
+.sg-btn-primary:visited {
+    background: #2A3757;
+    border-color: #2A3757;
+}
+
+.sg-btn-primary:hover {
+    background: #555F79;
+}
+
+.sg-typed-color--primary {
+    color: #2A3757 !important;
+}
+
+.sg-link {
+    color: #2A3757;
+}
+
+.sg-link:hover {
+    color: #555F79;
+}
+
+.hide {
+    display: none;
+}
