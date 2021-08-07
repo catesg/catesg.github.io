@@ -31,7 +31,7 @@ layout: article_default
                     <div class="article__share">
                         <div class="row">
                             <div class="col-md-4">
-                                <a class="btn bg--facebook btn--icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
+                                <a class="btn bg--facebook btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="facebook">
                                     <span class="btn__text">
                                         <i class="socicon socicon-facebook"></i>
                                         Share on Facebook
@@ -39,7 +39,7 @@ layout: article_default
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a class="btn bg--twitter btn--icon" target="_blank" href="https://twitter.com/intent/tweet?via=StewGiff&text={{ page.title | escape }}&url={{ site.url }}{{ page.url }}">
+                                <a class="btn bg--twitter btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="twitter" data-text="{{ page.title | escape }}">
                                     <span class="btn__text">
                                         <i class="socicon socicon-twitter"></i>
                                         Share on Twitter
@@ -47,7 +47,7 @@ layout: article_default
                                 </a>
                             </div>
                             <div class="col-md-4">
-                                <a class="btn bg--linkedin btn--icon" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}">
+                                <a class="btn bg--linkedin btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="linkedin" data-source="{{site.url}}" data-text="{{ page.title | escape }}">
                                     <span class="btn__text">
                                         <i class="socicon socicon-linkedin"></i>
                                         Share on LinkedIn
