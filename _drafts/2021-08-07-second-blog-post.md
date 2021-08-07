@@ -5,6 +5,7 @@ date:   2021-08-07
 image: /img/blog-2.jpg
 categories: communication training
 description: The post description goes here!
+videoURL: 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nibh elit. Etiam ac blandit turpis. Fusce imperdiet dui in orci interdum, viverra viverra nunc tempus. Nullam nec arcu dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec accumsan nulla vel urna vestibulum, et congue mauris faucibus. Ut eu cursus ipsum. Sed non tortor condimentum, feugiat lectus et, pretium neque. Sed consectetur eget tellus at cursus. Phasellus sit amet leo sit amet lectus scelerisque rutrum nec vel elit.
