@@ -15,90 +15,43 @@ layout: default
                     <div class="col-md-12">
                         <div class="masonry">
 
-                            <!--
-                            <div class="search-box bg--white border--bottom" data-animation="from-top" data-notification-link="search-box">
-                                <form>
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-6 col-md-8">
-                                            <input type="search" id="search-input" placeholder="Type search query" />
-                                        </div>
-                                    </div>
-                                    <div class="row justify-content-center">
-                                        <div class="col-lg-12">
-                                            <div id="results-list"></div>
-                                        </div>
-                                    </div>
-                                    <script src="/js/search-script.js" type="text/javascript"></script>
-                                    <script>
-                                    SimpleJekyllSearch({
-                                        searchInput: document.getElementById('search-input'),
-                                        resultsContainer: document.getElementById('results-list'),
-                                        json: '/search.json',
-                                        searchResultTemplate: `
-                                        <section class="space--xs blog-article-wide">
-                                            <div class="container">
-                                                <div class="cta cta--horizontal text-center-xs row">
-                                                    <div class="col-md-4">
-                                                        <h4>{date}</h4>
-                                                    </div>
-                                                    <div class="col-md-5">
-                                                        <p class="lead">{title}</p>
-                                                    </div>
-                                                    <div class="col-md-3 text-right text-center-xs">
-                                                        <a class="btn type--uppercase" href="{url}">
-                                                            <span class="btn__text">
-                                                                Read Article
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        `,
-                                        noResultsText: `
-                                        <div class="row justify-content-center">
-                                            <div class="col-md-12 text-center">
-                                                <p class="lead">
-                                                    No results found
-                                                </p>
-                                            </div>
-                                        </div>
-                                        `
-                                    })
-                                    </script>
-                                </form>
-                            </div>
-                            -->
-
-                            <!-- <div class="masonry-filter-container d-flex align-items-center">
-                                <span>Category:</span>
+                            <div class="masonry-filter-container d-flex align-items-center">
+                                <span>Search:</span>
                                 <div class="masonry-filter-holder">
-                                    <div class="masonry__filters" data-filter-all-text="All Categories"><ul><li class="active" data-masonry-filter="*">All Categories</li><li data-masonry-filter="design">Design</li><li data-masonry-filter="inspiration">Inspiration</li><li data-masonry-filter="marketing">Marketing</li></ul></div>
+                                    <input type="search" id="search-input" placeholder="Type search query" />
                                 </div>
-                            </div> -->
+                            </div>
+                            <div class="alert bg--error" id="noresultsAlert" style="display:none;">
+                                <div class="alert__body">
+                                  <span>Sorry, we could not find any results that matched your search criteria</span>
+                                </div>
+                                <div class="alert__close">×</div>
+                            </div>
                             <hr>
                             <div class="masonry__container row masonry--active" style="position: relative; height: 843.25px;">
 
-                                {% for post in paginator.posts %}
-                                    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
-                                    <div class="masonry__item col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
-                                        <article class="feature feature-1">
-                                            <a href="{{ post.url | relative_url }}" class="block">
-                                                <img alt="{{ post.title | escape }}" src="{{ post.image }}">
-                                            </a>
-                                            <div class="feature__body boxed boxed--border">
-                                                <span>{{ post.date | date: date_format }}</span>
-                                                <h5>{{ post.title | escape }}</h5>
-                                                <a class="sg-link" href="{{ post.url | relative_url }}">
-                                                    Read More
+                                <div id="results-list"></div>
+
+                                <div id="paginationList">
+                                    {% for post in paginator.posts %}
+                                        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                                        <div class="masonry__item col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
+                                            <article class="feature feature-1">
+                                                <a href="{{ post.url | relative_url }}" class="block">
+                                                    <img alt="{{ post.title | escape }}" src="{{ post.image }}">
                                                 </a>
-                                            </div>
-                                        </article>
-                                    </div>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <span>{{ post.date | date: date_format }}</span>
+                                                    <h5>{{ post.title | escape }}</h5>
+                                                    <a class="sg-link" href="{{ post.url | relative_url }}">
+                                                        Read More
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
 
-                                {% endfor %}
-
-
+                                    {% endfor %}
+                                </div>
 
                             </div>
                             <!--end of masonry container-->
@@ -206,6 +159,39 @@ layout: default
         </div>
         <!--end of container-->
     </section>
+
+    <script src="/js/search-script.js" type="text/javascript"></script>
+    <script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-list'),
+        json: '/search.json',
+        searchResultTemplate: `
+        <div class="masonry__item col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
+            <article class="feature feature-1">
+                <a href="{url}" class="block">
+                    <img alt="{title}" src="{image}">
+                </a>
+                <div class="feature__body boxed boxed--border">
+                    <span>{date}</span>
+                    <h5>{title}</h5>
+                    <a class="sg-link" href="{url}">
+                        Read More
+                    </a>
+                </div>
+            </article>
+        </div>`,
+        noResultsText: `
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <p class="lead">
+                    No results found
+                </p>
+            </div>
+        </div>
+        `
+    })
+    </script>
 
 
         <!-- Footer goes here -->
