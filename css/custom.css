@@ -35,6 +35,10 @@
     color: #555F79;
 }
 
+.sg-search-input {
+    border: 1px solid #2A3757 !important;
+}
+
 .hide {
     display: none;
 }
