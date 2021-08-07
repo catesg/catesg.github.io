@@ -1,0 +1,85 @@
+---
+layout: article_default
+---
+
+<body class=" " data-new-gr-c-s-check-loaded="14.1024.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <a id="start"></a>
+
+    {%- include top_navigation.html -%}
+
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <article>
+                    <div class="article__title text-center">
+                        <h1 class="h2">{{ page.title | escape }}</h1>
+                        <span>{%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                            {{ page.date | date: date_format }}</span>
+                        <!--
+                          <span>
+                            <a href="#">Web Design</a>
+                        </span>
+                        -->
+                    </div>
+                    <!--end article title-->
+                    <div class="article__body">
+                        <img alt="{{ page.title | escape }}" src="{{ page.image }}">
+                        {{ content }}
+                    </div>
+
+                    <div class="article__share">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="btn bg--facebook btn--icon" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}">
+                                    <span class="btn__text">
+                                        <i class="socicon socicon-facebook"></i>
+                                        Share on Facebook
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="btn bg--twitter btn--icon" target="_blank" href="https://twitter.com/intent/tweet?via=StewGiff&text={{ page.title | escape }}&url={{ site.url }}{{ page.url }}">
+                                    <span class="btn__text">
+                                        <i class="socicon socicon-twitter"></i>
+                                        Share on Twitter
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a class="btn bg--linkedin btn--icon" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}">
+                                    <span class="btn__text">
+                                        <i class="socicon socicon-linkedin"></i>
+                                        Share on LinkedIn
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </article>
+                <!--end item-->
+            </div>
+        </div>
+        <!--end of row-->
+
+
+    </div>
+    <!--end of container-->
+</section>
+
+<section class="space--sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end of container-->
+</section>
+
+{%- include footer.html -%}
+
+{%- include script_body_end.html -%}

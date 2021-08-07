@@ -862,6 +862,7 @@ div[data-overlay] ul {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+.btn.bg--linkedin,
 .btn.bg--facebook,
 .btn.bg--twitter,
 .btn.bg--instagram,
@@ -872,6 +873,7 @@ div[data-overlay] ul {
 .btn.bg--dark {
   border-color: rgba(0, 0, 0, 0) !important;
 }
+.btn.bg--linkedin .btn__text,
 .btn.bg--facebook .btn__text,
 .btn.bg--twitter .btn__text,
 .btn.bg--instagram .btn__text,
@@ -882,6 +884,7 @@ div[data-overlay] ul {
 .btn.bg--dark .btn__text {
   color: #fff;
 }
+.btn.bg--linkedin .btn__text i,
 .btn.bg--facebook .btn__text i,
 .btn.bg--twitter .btn__text i,
 .btn.bg--instagram .btn__text i,
@@ -892,6 +895,7 @@ div[data-overlay] ul {
 .btn.bg--dark .btn__text i {
   color: #fff;
 }
+.btn.bg--linkedin:hover,
 .btn.bg--facebook:hover,
 .btn.bg--twitter:hover,
 .btn.bg--instagram:hover,
@@ -2878,6 +2882,9 @@ a {
 .image-bg:not(.image-light) *:not(a) {
   color: #fff;
 }
+.color--linkedin {
+  color: #0e76a8;
+}
 .color--facebook {
   color: #3b5998;
 }
@@ -2898,6 +2905,10 @@ a {
 }
 .color--behance {
   color: #053eff;
+}
+.bg--linkedin {
+  background: #0e76a8;
+  color: #fff;
 }
 .bg--facebook {
   background: #3b5998;

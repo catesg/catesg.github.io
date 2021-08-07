@@ -25,10 +25,12 @@
     color: #2A3757 !important;
 }
 
+.article__body a,
 .sg-link {
     color: #2A3757;
 }
 
+.article__body a:hover,
 .sg-link:hover {
     color: #555F79;
 }
