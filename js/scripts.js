@@ -2946,7 +2946,7 @@ mr = (function (mr, $, window, document){
                     var strUltimateURL = 'https://twitter.com/intent/tweet?source=StewGiff&via=StewGiff&text=' + encodeURIComponent( $( this ).attr( 'data-text' ) ) + '&url=' + encodeURIComponent( $( this ).attr( 'data-posturl' ) );
                     break;
                 case 'linkedin':
-                    var strUltimateURL = 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent( $( this ).attr( 'data-posturl' ) + '&title=' + encodeURIComponent( $( this ).attr( 'data-text' ) ) + '&source=' + encodeURIComponent( $( this ).attr( 'data-source' ) ) );
+                    var strUltimateURL = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent( $( this ).attr( 'data-posturl' ) );
                     break;
                 default:
                   // code block
