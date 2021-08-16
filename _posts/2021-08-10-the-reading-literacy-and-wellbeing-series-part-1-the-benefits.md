@@ -7,4 +7,4 @@ categories:
 description: StewGiff Reading Literacy and Well-being series - part 1
 videoURL: https://www.youtube.com/embed/834HqZMElgo
 ---
-This first presentation looks at what will be covered in the series, some of the important benefits reading literacy offers, and how it relates to well-being.
+This first presentation looks at what will be covered in the upcoming five-part series, some of the important benefits reading literacy offers, and how it relates to well-being.
