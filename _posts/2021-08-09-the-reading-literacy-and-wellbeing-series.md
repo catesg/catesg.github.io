@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The Reading Literacy & Well-being Series
-date:   2021-08-14
+date:   2021-08-09
 image: /img/StewGiff_BlogPostHeader1.png
 categories:
 description: Introduction to the StewGiff Reading Literacy and Well-being series

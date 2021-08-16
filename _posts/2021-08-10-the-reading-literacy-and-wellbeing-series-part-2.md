@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Reading Literacy and Well-being Part 2. The Challenges
-date:   2021-08-14
+date:   2021-08-10
 image: /images/StewGiff_BlogPostHeader2.png
 categories: 
 description: StewGiff Reading Literacy and Well-being series - part 2

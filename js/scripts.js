@@ -2936,7 +2936,7 @@ mr = (function (mr, $, window, document){
 
 	mr.socialShares.documentReady = function($){
 
-        $( '.socialShareButton' ).on( 'click', function( e ){
+        $( '.js-socialShareButton' ).on( 'click', function( e ){
             e.preventDefault();
             switch( $( this ).attr( 'type' ) ) {
                 case 'facebook':

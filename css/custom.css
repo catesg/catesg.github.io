@@ -42,3 +42,19 @@
 .hide {
     display: none;
 }
+
+.sg-socialShareButton-holder {
+    padding: 10px 0 10px 0;
+}
+
+.sg-socialShareButton {
+    width: 50%;
+}
+
+@media all and (max-width: 1190px) {
+
+    .sg-socialShareButton {
+        width: 90%;
+    }
+
+}

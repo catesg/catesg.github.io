@@ -37,26 +37,26 @@ layout: article_default
                         {{ content }}
                     </div>
 
-                    <div class="article__share">
+                    <div class="article__share text-center">
                         <div class="row">
-                            <div class="col-md-4">
-                                <a class="btn bg--facebook btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="facebook">
+                            <div class="col-lg-12 col-md-12 col-sm-12 sg-socialShareButton-holder">
+                                <a class="btn bg--facebook btn--icon js-socialShareButton sg-socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="facebook">
                                     <span class="btn__text">
                                         <i class="socicon socicon-facebook"></i>
                                         Share on Facebook
                                     </span>
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a class="btn bg--twitter btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="twitter" data-text="{{ page.title | escape }}">
+                            <div class="col-lg-12 col-md-12 col-sm-12 sg-socialShareButton-holder">
+                                <a class="btn bg--twitter btn--icon js-socialShareButton sg-socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="twitter" data-text="{{ page.title | escape }}">
                                     <span class="btn__text">
                                         <i class="socicon socicon-twitter"></i>
                                         Share on Twitter
                                     </span>
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a class="btn bg--linkedin btn--icon socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="linkedin" data-source="{{site.url}}" data-text="{{ page.title | escape }}">
+                            <div class="col-lg-12 col-md-12 col-sm-12 sg-socialShareButton-holder">
+                                <a class="btn bg--linkedin btn--icon js-socialShareButton sg-socialShareButton" data-posturl="{{ site.url }}{{ page.url }}" type="linkedin" data-source="{{site.url}}" data-text="{{ page.title | escape }}">
                                     <span class="btn__text">
                                         <i class="socicon socicon-linkedin"></i>
                                         Share on LinkedIn
