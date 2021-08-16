@@ -51,10 +51,18 @@
     width: 50%;
 }
 
+.sg-sociallinks-footer {
+    text-align: right;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
         width: 90%;
+    }
+
+    .sg-sociallinks-footer {
+        text-align: center;
     }
 
 }
