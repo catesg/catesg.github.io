@@ -55,6 +55,10 @@
     text-align: right;
 }
 
+.sg-blog-next-prev-holder {
+    margin-top: 5.57142857em;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
