@@ -55,6 +55,14 @@
     text-align: right;
 }
 
+.sg-blog-next-prev-holder {
+    margin-top: 5.57142857em;
+}
+
+.sg-blog-next-prev-holder a {
+    color: #2A3757;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
