@@ -7,4 +7,4 @@ categories:
 description: StewGiff Reading Literacy and Well-being series - part 5
 videoURL: https://www.youtube.com/embed/xzf68xdJytE
 ---
-In this very short last section we look at some sources for stories, and review key points covered in the Reading Literacy and Well-being series
+In this very short last section we look at some sources for stories, and review key points covered in the Reading Literacy and Well-being series.
