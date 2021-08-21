@@ -90,13 +90,13 @@ layout: default
                     {% assign end = paginator.total_pages %}
                     {% endif %}
 
-                    <div class="pagination">
+                    <div class="pagination sg-pagination">
                         {% if paginator.previous_page %}
                         <a class="pagination__prev" title="Previous Page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
                             &laquo;
                         </a>
                         {% else %}
-                        <span class="pagination__prev">
+                        <span class="pagination__prev sg-pag-chev">
                             &laquo;
                         </span>
                         {% endif %}
@@ -144,7 +144,7 @@ layout: default
                             &raquo;
                         </a>
                         {% else %}
-                        <span class="pagination__next">
+                        <span class="pagination__next sg-pag-chev">
                             &raquo;
                         </span>
                         {% endif %}

@@ -63,6 +63,14 @@
     color: #2A3757;
 }
 
+.sg-pagination a {
+    color: #2A3757;
+}
+
+.sg-pag-chev {
+    font-size: 14px;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
