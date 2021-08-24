@@ -63,6 +63,18 @@
     color: #2A3757;
 }
 
+
+article .article__body ol {
+    font-size: 1.35714286em;
+    line-height: 1.68421053em;
+    font-weight: 400;
+    color: #808080;
+}
+
+article .article__body ol li {
+    margin-left: 20px;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
