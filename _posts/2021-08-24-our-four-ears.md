@@ -56,7 +56,7 @@ In the example above, the descent into an “I have asked you repeatedly…” a
 
 Talking about talking helps us understand ‘where the other person is coming from’. I could also acknowledge that her relationship with her friends is important. I could also perhaps tell her that I like it when she looks at me to directly acknowledge when I speak to her; a mutual acknowledgement of needs.
 
-She may tell that it feels like I am being bossy or diminishing her when I speak in that way - or that I didn’t actually ask her to put her phone down and put the clothes away. 
+She may say that it feels like I am being bossy or diminishing her when I speak in that way - or that I didn’t actually ask her to put her phone down and put the clothes away. 
 
 While the example here is related to family life, miscommunications like this are also common in our professional lives. Sharing our expectations around how we wish to be listened and spoken to, and understanding and respecting the expectations of others, is a good first step in creating a positive and productive work environment. This model encourages us to consider the relationship, the clarity of our message and what the other person may be hearing.
 
