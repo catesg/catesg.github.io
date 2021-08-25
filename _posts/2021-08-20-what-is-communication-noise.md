@@ -37,7 +37,7 @@ Educators frequently see this in the classroom. Children who have difficulty wit
 
 **Physical/Environmental Noise**
 
-I’ve lumped in physical and environmental noise together because there are many similarities. This is noise that originates outside of the sender and reciever.
+I’ve lumped in physical and environmental noise together because there are many similarities. This is noise that originates outside of the sender and receiver.
 
 Have you ever been in a noisy restaurant and not been able to have a conversation with a friend?
 
