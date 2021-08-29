@@ -30,7 +30,7 @@ In the case of technical language, this is sometimes necessary in a particular w
 
 Physiological noise originates from within either the sender or the receiver, and relates to our physiological abilities. This may include a speaking or listening impairment, or a specific learning need. 
 
-As senders, if we are aware of any physiological factors, then we can choose words or a means of communication that will make our message more accessible to the receiver. Similarly, if we are receivers, we can factor in physiological factors. 
+As senders, if we are aware of any physiological factors, then we can choose words or a means of communication that will make our message more accessible to the receiver. Similarly, if we are receivers, we can develop awareness of physiological factors. 
 
 Educators frequently see this in the classroom. Children who have difficulty with attention will require their instruction delivered in a way that accommodates physiological needs.
 
