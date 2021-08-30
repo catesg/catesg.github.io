@@ -15,7 +15,7 @@ Positive Education fell out of developments in Positive Psychology where it was 
 
 **Positive Communication (Very Briefly!)**
 
-A key figure in promoting the idea of Positive Communication is Dr Julien Mirivel, who created and has shared his Model of Positive Communication. In the 'Art of Positive Communication', Dr Julien Mirivel describes Positive Communication as: "Any verbal and nonverbal behaviours that function positively in the couse of human interaction."
+A key figure in promoting the idea of Positive Communication is Dr Julien Mirivel, who created and shared his Model of Positive Communication. In the 'Art of Positive Communication', Dr Julien Mirivel describes Positive Communication as: "Any verbal and nonverbal behaviours that function positively in the couse of human interaction."
 
 His model gives us something to 'play with', to develop an understanding of how we can communicate meaningfully and richly with others.
 
