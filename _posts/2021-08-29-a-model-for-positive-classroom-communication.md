@@ -9,7 +9,7 @@ videoURL:
 ---
 In recent years we've seen developments around the idea of 'Postive Education', which is "an approach to education that blends academic learning with character and well-being. Preparing students with life skills such as: grit, optimisim, resilience, growth mindset, engagement, and mindfulness, amongst others."(Bott et al., 2017)
 
-Positive Education fell out of developments in Positive Psychology where it was identified by focuss on the pathology, or taking a reactive approach to issues, did not necessarily lead to happy and meaningful living, rather it 'dealt with problems'. It got us from the negative to the neutral. Well-being is achieved when we move above the neutral - when we are proactive in creating our lives.
+Positive Education fell out of developments in Positive Psychology where it was identified that focusing on the pathology, or taking a reactive approach to issues, did not necessarily lead to happy and meaningful living, rather it 'dealt with problems'. It got us from the negative to the neutral. Well-being is achieved when we move above the neutral - when we are proactive in creating our lives.
 
  Similarly, Positive Communication could be considered the antithesis of the so-called Dark Side of communication, and focuses on using how we interact with each other to make our lives more connected, authentic and rewarding. 
 
