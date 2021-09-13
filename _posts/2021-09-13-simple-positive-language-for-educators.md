@@ -2,7 +2,7 @@
 layout: post
 title:  Simple and Positive Language for Educators
 date:   2021-09-13
-image: /img/StewGiff_BlogPostHeader10.png
+image: /images/StewGiff_BlogPostHeader10.png
 categories:
 description: Free download on positive language for teachers 
 ---
