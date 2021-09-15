@@ -2,7 +2,7 @@
 layout: post
 title: Paul Watzalawick's 5 Axioms (Axiom No.1)
 date:   2021-09-15
-image: /images/StewGiff_BlogPostHeader11.png
+image: /img/StewGiff_BlogPostHeader11.png
 categories:
 description: Axiom No.1 
 ---
