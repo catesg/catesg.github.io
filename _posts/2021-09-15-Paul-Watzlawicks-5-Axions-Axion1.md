@@ -4,7 +4,7 @@ title: Paul Watzalawick's 5 Axioms (Axiom No.1)
 date:   2021-09-15
 image: /images/StewGiff_BlogPostHeader11.png
 categories:
-description: Axiom No.1 
+description: Watzlawick's Axiom No.1 
 ---
 Paul Watzlawick was a therapist, psychologist, philosopher and communication theorist. A pretty busy guy. He had plenty to say on many things in these fields, however we’re going to look at his theory on communication which included the Five Axioms.
 
