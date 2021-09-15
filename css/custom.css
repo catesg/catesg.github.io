@@ -85,6 +85,10 @@ article .article__body ol li {
     font-size: 14px;
 }
 
+.sg-socialbutton-row {
+    margin-top: 50px;
+}
+
 @media all and (max-width: 1190px) {
 
     .sg-socialShareButton {
