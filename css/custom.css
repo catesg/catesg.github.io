@@ -26,11 +26,13 @@
 }
 
 .article__body a,
+.accordion__content a,
 .sg-link {
     color: #2A3757;
 }
 
 .article__body a:hover,
+.accordion__content a:hover,
 .sg-link:hover {
     color: #555F79;
 }
