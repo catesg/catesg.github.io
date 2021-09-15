@@ -10,20 +10,20 @@ Paul Watzlawick was a therapist, psychologist, philosopher and communication the
 
 These are:
 
-1.	One cannot not communicate.
+<strong>Axiom 1.</strong>  One cannot not communicate.
 
-2.	Every communication has a content and a relationship aspect such that the latter classifies the former and is therefore a metacommunication.
+<strong>Axiom 2.</strong>  Every communication has a content and a relationship aspect such that the latter classifies the former and is therefore a metacommunication.
 
-3.	The nature of a relationship is dependents on the punctuation of the partners communication procedures.
+<strong>Axiom 3.</strong>  The nature of a relationship is dependents on the punctuation of the partners communication procedures.
 
-4.	Human communication involves both digital and analog modalities.
+<strong>Axion 4.</strong>  Human communication involves both digital and analog modalities.
 
-5.	Inter-human communication procedures are either symmetric or complementary.
+<strong>Axion 5.</strong> Inter-human communication procedures are either symmetric or complementary.
 
 Axioms two – five require a little deciphering. Many words will not mean what you think they mean, (i.e. punctuation, analog, his use of metacommunication, etc.) The axiom I’m interested in here is the first:
->
+
 ><strong>One Cannot NOT Communicate</strong>
->
+
 Every behaviour is a form of communication. The way we dress, hold a gaze, our gait or stance. When we walk in a room we have already communicated many things, even before saying an utterance.
 
 For example, if we were to walk into a room then immediately leave…that will communicate something. What exactly that it, will depends not only on our expression, mannerism, demeanour – but also on the relationship we have with those in the room. Someone you have had a conflict with may interpret it as you ‘storming out’. A friend who has seen you be forgetful may assume that you’ve nipped out to get something you left behind. For as many people who witness your behaviour there will be as many possible interpretations. Messages that have been received.
