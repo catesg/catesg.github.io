@@ -30,9 +30,9 @@ For example, if we were to walk into a room then immediately leave…that will c
 
 **An Exercise** 
 
-Have someone come into your classroom or workspace. Ask them to be as neutral as possible in their actions but have a clear message or thought in their mind. After 1 minute they can quietly leave.
+Have someone come into your classroom or workspace as a 'Neutral Visitor'. Ask them to be as neutral as possible in their actions, but ask them to have a clear message or thought in their mind. After one minute they can leave.
 
-Ask those remaining in the room “What was that about?”, “What were they doing?” “What were they saying?” Gather all the suggestions and call the ‘Neutral visitor’ back in. Let them share the thought they were focusing on. How it felt and things they noticed.
+Ask those remaining in the room “What was that about?”, “What were they doing?” “What were they saying?” Gather all the suggestions and call the ‘Neutral Visitor’ back in. Let them share the thought they were focusing on. How it felt and things they noticed about the reactions of others in the room.
 
 Were there any comparisons to what the others in the room thought?
 
