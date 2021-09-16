@@ -26,7 +26,7 @@ Axioms two – five require a little deciphering. Many words will not mean what 
 
 Every behaviour is a form of communication. The way we dress, hold a gaze, our gait or stance. When we walk in a room we have already communicated many things, even before saying an utterance.
 
-For example, if we were to walk into a room then immediately leave…that will communicate something. What exactly that it, will depends not only on our expression, mannerism, demeanour – but also on the relationship we have with those in the room. Someone you have had a conflict with may interpret it as you ‘storming out’. A friend who has seen you be forgetful may assume that you’ve nipped out to get something you left behind. For as many people who witness your behaviour there will be as many possible interpretations. Messages that have been received.
+For example, if we were to walk into a room then immediately leave…that will communicate something. What exactly that is, will depend not only on our expression, mannerisms, demeanour – but also on the relationship we have with those in the room. Someone you have had a conflict with may interpret it as you ‘storming out’. A friend who has seen you be forgetful may assume that you’ve nipped out to get something you left behind. For as many people who witness your behaviour there will be as many possible interpretations. Messages that have been received.
 
 **An Exercise** 
 
@@ -36,7 +36,7 @@ Ask those remaining in the room “What was that about?”, “What were they do
 
 Were there any comparisons to what the others in the room thought?
 
-The points is, when we enter a space – a meeting, a classroom, a store or enter into a conversation, we are giving of a myriad of messages from the very start. Even if we tried to be as ‘neutral’ as possible, that in itself can be interpreted as a message.
+The point is, when we enter a space – a meeting, a classroom, a store or enter into a conversation, we are giving of a myriad of messages from the very start. Even if we try to be as ‘neutral’ as possible, that in itself can be interpreted as a message.
 
 <strong>You are a communicator</strong>. You cannot NOT communicate. So, if there is no getting away from it…what messages are you going to give out?
 
