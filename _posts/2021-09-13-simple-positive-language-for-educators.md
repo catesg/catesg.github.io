@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Simple and Positive Language for Educators
+title:  "Free Resource: Simple and Positive Language for Educators"
 date:   2021-09-13
 image: /images/StewGiff_BlogPostHeader10.png
 categories:
