@@ -4,6 +4,9 @@ title:  Reading Literacy and Well-being Part 1. The Benefits
 date:   2021-08-10
 image: /images/StewGiff_BlogPostHeader2.png
 categories: 
+ - literacy
+ - education
+ - free resources
 description: StewGiff Reading Literacy and Well-being series - part 1
 videoURL: https://www.youtube.com/embed/834HqZMElgo
 ---

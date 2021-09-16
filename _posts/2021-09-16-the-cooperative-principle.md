@@ -4,8 +4,8 @@ title:  The Cooperative Principle
 date:   2021-09-16
 image: /images/StewGiff_BlogPostHeader12.png
 categories:
- - "communication"
- - "theory"
+ - communication
+ - theory
 description: Grice's Cooperative Principle - short and simple
 ---
 Many of us will have heard, in some form or other, the words of Sufi poet, Rumi:

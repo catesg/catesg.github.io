@@ -4,6 +4,9 @@ title:  Reading Literacy and Well-being Part 5. Review
 date:   2021-08-14
 image: /images/StewGiff_BlogPostHeader6.png
 categories: 
+ - literacy
+ - education
+ - free resources
 description: StewGiff Reading Literacy and Well-being series - part 5
 videoURL: https://www.youtube.com/embed/xzf68xdJytE
 ---

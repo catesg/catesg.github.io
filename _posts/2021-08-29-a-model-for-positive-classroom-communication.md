@@ -4,6 +4,8 @@ title:  A Model for Positive Classroom Communication
 date:   2021-08-29
 image: /images/StewGiff_BlogPostHeader9.png
 categories: 
+ - education
+ - communication
 description: A Model for Positive Classroom Communication
 videoURL: 
 ---

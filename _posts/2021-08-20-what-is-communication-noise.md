@@ -4,6 +4,8 @@ title:  What is Communication Noise?
 date:   2021-08-20
 image: /images/StewGiff_BlogPostHeader7.jpg
 categories: 
+ - communication
+ - theory
 description: What is Communication Noise?
 videoURL:
 ---

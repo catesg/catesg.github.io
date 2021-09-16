@@ -4,6 +4,8 @@ title:  Our Four Ears
 date:   2021-08-24
 image: /images/StewGiff_BlogPostHeader8.png
 categories: 
+ - communication
+ - theory
 description: Our Four Ears - the communication square/four sides/4 ears model
 videoURL: 
 ---

@@ -4,6 +4,9 @@ title:  "Free Resource: Simple and Positive Language for Educators"
 date:   2021-09-13
 image: /images/StewGiff_BlogPostHeader10.png
 categories:
+ - communication
+ - free resources
+ - education
 description: Free download on positive language for teachers 
 ---
 As educators, we can sometimes find a specific class, student, parent, or colleague ‘derails’ us, and we notice ourselves taking a negative stance in our interactions. Even when we know what we should and shouldn’t do, it’s sometimes a good idea to review the basics.

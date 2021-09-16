@@ -4,6 +4,9 @@ title:  Reading Literacy and Well-being Part 2. The Challenges
 date:   2021-08-11
 image: /images/StewGiff_BlogPostHeader3.png
 categories: 
+ - literacy
+ - education
+ - free resources
 description: StewGiff Reading Literacy and Well-being series - part 2
 videoURL: https://www.youtube.com/embed/3GhPrN59eG8
 ---
