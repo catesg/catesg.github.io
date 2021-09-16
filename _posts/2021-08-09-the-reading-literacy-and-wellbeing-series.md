@@ -4,9 +4,9 @@ title:  The Reading Literacy & Well-being Series
 date:   2021-08-09
 image: /img/StewGiff_BlogPostHeader1.png
 categories:
- - Literacy
- - Education
- - Free Resources
+ - literacy
+ - education
+ - free resources
 description: Introduction to the StewGiff Reading Literacy and Well-being series
 ---
 Reading has the power to transform lives. Not just the information gleaned, or the opportunities new knowledge offers us – but the physical act of reading itself and effect it has on our emotions.

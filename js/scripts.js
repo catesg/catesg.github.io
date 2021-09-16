@@ -1492,6 +1492,36 @@ mr = (function (mr, $, window, document){
 
 }(mr, jQuery, window, document));
 
+//////////////// StewGiff Categories
+mr = (function (mr, $, window, document){
+    "use strict";
+
+    mr.category = mr.category || {};
+
+    mr.category.documentReady = function($){
+
+        $(document).on('click touchstart', '.category__filters li:not(.js-no-action)', function(){
+            var categoryFilter = $(this);
+            var filterValue = 'all';
+            if(categoryFilter.attr('data-category-filter') !== '*'){
+                filterValue = categoryFilter.attr('data-category-filter');
+            }
+
+            if( filterValue == 'all' ){
+                window.location.href = '/blog/category/';
+            } else {
+                window.location.href = '/blog/category/' + filterValue + '/';
+            }
+
+        });
+
+    };
+
+    mr.components.documentReady.push(mr.category.documentReady);
+    return mr;
+
+}(mr, jQuery, window, document));
+
 
 //////////////// Masonry
 mr = (function (mr, $, window, document){

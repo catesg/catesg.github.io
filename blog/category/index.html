@@ -1,0 +1,171 @@
+---
+title: Categories
+layout: default
+category: all
+---
+
+<body class=" " data-new-gr-c-s-check-loaded="14.1024.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+    <a id="start"></a>
+
+    {%- include top_navigation.html -%}
+
+    {% assign sortedCategories = site.categories | sort %}
+
+    <div class="main-container">
+        <section class="space--sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="masonry">
+
+                            {% assign slugifiedCategory = page.category | slugify %}
+
+                            <div class="masonry-filter-container d-flex align-items-center">
+                                <span>Category:</span>
+                                <div class="category-filter-holder">
+                                    <div class="category__filters" data-filter-all-text="All Categories"><ul><li class="active" data-category-filter="*">All Categories</li>{% for category in sortedCategories | sort "category" %}<li data-category-filter="{{ category[0] | slugify }}" class="">{{ category[0] | capitalize }}</li>{% endfor %}</ul></div>
+                                </div>
+                            </div>
+
+                            <hr>
+                            <div class="masonry__container row masonry--active" style="position: relative; height: 843.25px;">
+
+                                <div id="results-list"></div>
+
+                                <div id="paginationList">
+                                    {% for post in site.posts %}
+                                        {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+                                        <div class="masonry__item col-lg-4 col-md-6" style="position: absolute; left: 0px; top: 0px;">
+                                            <article class="feature feature-1">
+                                                <a href="{{ post.url | relative_url }}" class="block">
+                                                    <img alt="{{ post.title | escape }}" src="{{ post.image }}">
+                                                </a>
+                                                <div class="feature__body boxed boxed--border">
+                                                    <span>{{ post.date | date: date_format }}</span>
+                                                    <h5>{{ post.title | escape }}</h5>
+                                                    <a class="sg-link" href="{{ post.url | relative_url }}">
+                                                        Read More
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+
+                                    {% endfor %}
+                                </div>
+
+                            </div>
+                            <!--end of masonry container-->
+
+                        <!--end masonry-->
+                    </div>
+                </div>
+                <!--end of row-->
+            </div>
+            <!--end of container-->
+        </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    {% if paginator.total_pages > 1 %}
+
+                    {% assign start = paginator.page | minus: 2 %}
+                    {% assign end = paginator.page | plus: 2 %}
+
+                    {% if start < 1 %}
+                    {% assign start = 1 %}
+                    {% assign end = start | plus: 4 %}
+                    {% elsif end > paginator.total_pages %}
+                    {% assign start = paginator.total_pages | minus: 4 %}
+                    {% assign end = paginator.total_pages %}
+                    {% endif %}
+
+                    {% if start < 1 %}
+                    {% assign start = 1 %}
+                    {% endif %}
+
+                    {% if end > paginator.total_pages %}
+                    {% assign end = paginator.total_pages %}
+                    {% endif %}
+
+                    <div class="pagination sg-pagination">
+                        {% if paginator.previous_page %}
+                        <a class="pagination__prev" title="Previous Page" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                            &laquo;
+                        </a>
+                        {% else %}
+                        <span class="pagination__prev sg-pag-chev">
+                            &laquo;
+                        </span>
+                        {% endif %}
+
+                        <ol>
+
+                        {% if start > 1 %}
+                        <li>
+                            <a class="pagination-first" href="{{ site.baseurl }}/blog">1</a>
+                        </li>
+                        <li>
+                            <span class="pagination-more">&middot;&middot;&middot;</span>
+                        </li>
+                        {% endif %}
+
+                        {% for page in (start..end) %}
+                        {% if page == paginator.page %}
+                            <li>
+                            <a class="pagination__current">{{ page }}</span>
+                            </li>
+                        {% elsif page == 1 %}
+                            <li>
+                            <a href="{{ site.baseurl }}/blog">{{ page }}</a>
+                            </li>
+                        {% else %}
+                            <li>
+                            <a href="{{ site.baseurl }}/blog/page{{ page }}">{{ page }}</a>
+                            </li>
+                        {% endif %}
+                        {% endfor %}
+
+                        {% if end < paginator.total_pages %}
+                        <li>
+                            <span class="pagination-more">&middot;&middot;&middot;</span>
+                        </li>
+                        <li>
+                            <a href="{{ site.baseurl }}/blog/page{{ paginator.total_pages }}">{{ paginator.total_pages }}</a>
+                        </li>
+                        {% endif %}
+
+                        </ol>
+
+                        {% if paginator.next_page %}
+                        <a class="pagination__next" title="Next Page" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+                            &raquo;
+                        </a>
+                        {% else %}
+                        <span class="pagination__next sg-pag-chev">
+                            &raquo;
+                        </span>
+                        {% endif %}
+                    </div>
+                {% endif %}
+
+
+                </div>
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+
+
+        <!-- Footer goes here -->
+        {%- include footer.html -%}
+
+    </div>
+
+
+    {%- include script_body_end.html -%}
+
