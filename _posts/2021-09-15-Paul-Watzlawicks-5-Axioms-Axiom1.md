@@ -18,9 +18,9 @@ These are:
 
 <strong>Axiom 3.</strong>  The nature of a relationship is dependents on the punctuation of the partners communication procedures.
 
-<strong>Axion 4.</strong>  Human communication involves both digital and analog modalities.
+<strong>Axiom 4.</strong>  Human communication involves both digital and analog modalities.
 
-<strong>Axion 5.</strong> Inter-human communication procedures are either symmetric or complementary.
+<strong>Axiom 5.</strong> Inter-human communication procedures are either symmetric or complementary.
 
 Axioms two – five require a little deciphering. Many words will not mean what you think they mean, (i.e. punctuation, analog, his use of metacommunication, etc.) The axiom I’m interested in here is the first:
 
