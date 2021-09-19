@@ -1510,7 +1510,7 @@ mr = (function (mr, $, window, document){
             if( filterValue == 'all' ){
                 window.location.href = '/blog/category/';
             } else {
-                window.location.href = '/blog/category/' + filterValue + '/';
+                window.location.href = '/blog/category/' + filterValue;
             }
 
         });
