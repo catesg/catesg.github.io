@@ -1685,7 +1685,6 @@ mr = (function (mr, $, window, document){
 
         var $masonry = $(masonry);
 
-
         $masonry.each(function(){
             var collection       = $(this),
                 newItems         = collection.find('.masonry__item:not([style])'),
