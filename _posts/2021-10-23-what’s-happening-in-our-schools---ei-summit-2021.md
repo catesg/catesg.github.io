@@ -24,7 +24,7 @@ Positive Education sprung from the work in Positive Psychology. There was an ide
 
 That the relationship between education and happiness is important, is not a new idea. Thinkers as far back as Aristotle and Cicero have considered happiness to be a goal of education, and since the early 1900s educators have been talking about the links between happiness and academic achievement.
 
-Nowm of course, we have a far greater understanding of the human brain. With a higher rate of mental illness, and changing societal and individual priorities, there has been an increasing drive to focus on student well-being and building personal resilience. This is what Positive Education supports.
+Now, of course, we have a far greater understanding of the human brain. With a higher rate of mental illness, and changing societal and individual priorities, there has been an increasing drive to focus on student well-being and building personal resilience. This is what Positive Education supports.
 
 I want to double back to Seligman for a second and the work he did with Christopher Peterson. They set about determining and understanding the key traits that comprise happier people. Through their research they came up with 24 Characters Strengths. Which are grouped in six key areas of virtue.
 
