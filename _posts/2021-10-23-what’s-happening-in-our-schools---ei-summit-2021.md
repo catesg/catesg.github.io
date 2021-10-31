@@ -73,18 +73,18 @@ We also need to give the children the language to identify emotions. Not just sm
 
 Have you seen a toddler breakdown in a supermarket? For them it can be tiring, confusing and embarrassing. Heightened emotional states can easily escalate, therefore we want to promote a range of coping strategies to help children regulate their emotions. Some can be used in the moment, some used to build up that resilience and self-awareness. 
 
-* Breathing techniques – a classic.
-* Using their language appropriately and clearly. Give them the words or facilitate the use of non-verbal cues.
-* Positive self-talk. Perhaps the child could come up with a personal mantra they can use to help them focus. 
-* Mindfulness and being in their body. Lots of different methods here. Tapping, whole body writing, meditation, sport, and other physical activities.
-* Promote listening skills – teach active listen.
-* Teenagers can feel the same as toddlers. Empower them to make better behavioural choices within a safe space. Demonstrate trust.
-* Perspective – help them put things in place and considered what they CAN do in the here and now and what the most likely impact of events. How do we stop catastrophising setbacks?
-* Talk to them about the locus of control. “One of our greatest freedoms is how we react to things”.
-* Look for moments to nurture empathy – cognitive, emotional and compassionate empathy. 
-* Help children understand their brain – the physiology and the psychology. Older children often find it truly interesting to hear about neuroplasticity and that things are not ‘locked in’. They are free to change patterns, (again, that control).
-* Create clear, reasonable and respectful boundaries, (for you and them).
-* Model. What do they hear you saying to yourself? Let them see you actively use coping strategies yourself. Positive self-talk (say it out loud), practise mindfulness, etc.
+- Breathing techniques – a classic.
+- Using their language appropriately and clearly. Give them the words or facilitate the use of non-verbal cues.
+- Positive self-talk. Perhaps the child could come up with a personal mantra they can use to help them focus. 
+- Mindfulness and being in their body. Lots of different methods here. Tapping, whole body writing, meditation, sport, and other physical activities.
+- Promote listening skills – teach active listen.
+- Teenagers can feel the same as toddlers. Empower them to make better behavioural choices within a safe space. Demonstrate trust.
+- Perspective – help them put things in place and considered what they CAN do in the here and now and what the most likely impact of events. How do we stop catastrophising setbacks?
+- Talk to them about the locus of control. “One of our greatest freedoms is how we react to things”.
+- Look for moments to nurture empathy – cognitive, emotional and compassionate empathy. 
+- Help children understand their brain – the physiology and the psychology. Older children often find it truly interesting to hear about neuroplasticity and that things are not ‘locked in’. They are free to change patterns, (again, that control).
+- Create clear, reasonable and respectful boundaries, (for you and them).
+- Model. What do they hear you saying to yourself? Let them see you actively use coping strategies yourself. Positive self-talk (say it out loud), practise mindfulness, etc.
 
 We don’t have to wait for planned PSHE lessons or school assemblies. Parents don’t have to wait for a time to have a chat. In fact, little and often works best. Seize the opportunities. Use moments of transition* through the day to instigate positive coping and self-calming behaviours. Circle time, form room. Little. And. Often.
 
