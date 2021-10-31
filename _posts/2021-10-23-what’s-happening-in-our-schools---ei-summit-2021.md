@@ -14,7 +14,7 @@ The inaugural Virtual EI Summit was held on Clubhouse in early October this year
 
 I want to start by giving a little background to Positive Education. What is Positive Education? 
 
-Let’s first go back a step and look at Positive Psychology, a term coined by Abraham Maslow. The term was brought into the mainstream by Dr Martin Seligman during his tenure as the president of the APA. He considered the question ‘What makes happy people are happy’ and went on to develop systematic and scientific thinking behind that. Seligman gave us the PERMA model for well-being.
+Let’s first go back a step and look at Positive Psychology, a term coined by Abraham Maslow. The term was brought into the mainstream by Dr Martin Seligman during his tenure as the president of the APA. He considered the question ‘What makes happy people, happy’ and went on to develop systematic and scientific thinking behind that. Seligman gave us the PERMA model for well-being.
 
 ![PERMACHART2](/images/PERMACHART2.png)
 
