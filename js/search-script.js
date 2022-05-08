@@ -271,6 +271,8 @@
     isJSON: isJSON
   }
 
+  var blogContent = '';
+
   function merge (defaultParams, mergeParams) {
     const mergedOptions = {}
     for (const option in defaultParams) {
@@ -370,6 +372,7 @@
 
     function initWithJSON (json) {
       _$Repository_4.put(json)
+      blogContent = options.resultsContainer.innerHTML;
       registerInput()
     }
 
@@ -383,11 +386,17 @@
     }
 
     function hidePaginationList(){
-      document.getElementById( 'paginationList' ).style.display = 'none';
+      document.getElementById( 'paginationHolder' ).style.display = 'none';
     }
 
     function showPaginationList(){
-      document.getElementById( 'paginationList' ).style.display = 'block';
+      renderInitialContentAgain();
+      document.getElementById( 'paginationHolder' ).style.display = 'block';
+    }
+
+    function renderInitialContentAgain(){
+      document.getElementById( 'paginationList' ).innerHTML = blogContent;
+      searchResultChanges();
     }
 
     function hideNoResultAlert(){
@@ -403,7 +412,31 @@
     }
 
     function appendToResultsContainer (text) {
-      options.resultsContainer.innerHTML += text
+      options.resultsContainer.innerHTML += text;
+      searchResultChanges();
+    }
+
+    function searchResultChanges( masonry ){
+      masonry = typeof masonry !== typeof undefined ? masonry : '.masonry';
+
+      var $masonry = jQuery(masonry);
+
+        $masonry.each(function(){
+            var collection       = jQuery(this),
+                newItems         = collection.find('.masonry__item'),
+                masonryContainer = collection.find('.masonry__container');
+
+            if(collection.is('.masonry')){
+                if(newItems.length){
+                    masonryContainer.isotope('appended', newItems).isotope( 'layout');
+                }
+
+                masonryContainer.imagesLoaded().progress( function() {
+                  masonryContainer.isotope('layout');
+                });
+
+            }
+        });
     }
 
     function registerInput () {

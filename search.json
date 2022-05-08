@@ -5,9 +5,18 @@ sitemap:
 {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
 [
   {% for post in site.posts %}
+
+    {%- assign cleanContent = post.content | strip_html -%}
+    {%- assign cleanContent = cleanContent | replace: '“', '' -%}
+    {%- assign cleanContent = cleanContent | replace: '”', '' -%}
+    {%- assign cleanContent = cleanContent | replace: '‘', '' -%}
+    {%- assign cleanContent = cleanContent | replace: '’', '' -%}
+    {%- assign cleanContent = cleanContent | strip_newlines -%}
+
     {
 
       "title"    : "{{ post.title | escape }}",
+      "content": "{{ cleanContent | replace: \n, '' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "image"    : "{{ site.baseurl }}{{ post.image }}",
       "category" : "{{ post.category | join: ', ' }}",

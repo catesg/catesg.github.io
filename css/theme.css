@@ -8792,7 +8792,8 @@ section.unpad > article .imagebg + div {
 .masonry-filter-container > span {
   position: relative;
 }
-.masonry-filter-container > span + .masonry-filter-holder {
+.masonry-filter-container > span + .masonry-filter-holder,
+.masonry-filter-container > span + .category-filter-holder {
   margin-left: 0.92857143em;
 }
 .comments__list li {
